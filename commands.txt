@@ -1,0 +1,11 @@
+git init
+git status
+git add .
+git commit -m "first commit"
+git log --oneline
+git checkout -- index.html
+
+git remote add origin <repository URL>
+git push -u origin master
+
+git clone <repository URL>
